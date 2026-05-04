@@ -32,5 +32,5 @@ data = {
 response = requests.post(url, headers=headers, json=data)
 result = response.json()
 
-print("✅ Open this link NOW in Chrome:")
+print(" Open this link NOW in Chrome:")
 print(result['webCallUrl'])
